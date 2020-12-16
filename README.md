@@ -1,24 +1,15 @@
-# README
+### 忘年会アプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### ルール
 
-Things you may want to cover:
+- 1人持ち時間2分で得点画面に辿り着け！
+- その前にGithub上のみでコードリーディングの時間を5分やろう
+- cloneはしてはならない
+- 全体検索をしてはならない
+- プレイ時にURLをベタ打ちしてはならない
+- サーバーを落としてはならない
+- マウスホバーした時の左下のURLは見てはならない
+- 終わったらログアウトして次の者に交代すること
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##### 大事な一言
+- rails db:seed は実行済みである
