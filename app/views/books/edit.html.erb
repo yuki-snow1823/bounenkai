@@ -5,6 +5,7 @@
     	<%= render 'layouts/errors', obj: @book %>
   		<%= render 'form', book: @book %>
   		<%= link_to 'Show', book_path(@book), class: "book_#{@book.id}" %> |
-  		<%= link_to 'Back', books_path, class: "back" %>
+  		<%= link_to 'Back', books_path, class: "back" %>|
+  		<%= link_to '宝箱', takarabako_path %>|
   </div>
 </div>

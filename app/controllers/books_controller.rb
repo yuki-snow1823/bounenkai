@@ -15,7 +15,6 @@ class BooksController < ApplicationController
 
   def create
     @book = Book.new(book_params)
-    binding.pry
     if book_params[:title] == "冒険の書"
       @book.save
       redirect_to boss_path

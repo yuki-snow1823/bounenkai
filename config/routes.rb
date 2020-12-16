@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'ougon' => 'users#ougon', as: "ougon"
   get 'correct' => 'users#correct', as: "correct"
   get 'dangerbtn' => 'users#dangerbtn', as: "dangerbtn"
-  get "zoma" => "boss#zoma", as: "zoma" 
+  get "zoma" => "boss#zoma", as: "boss" 
   get "clear" => "boss#clear", as: "clear" 
+  get "takarabako" => "boss#takarabako", as: "takarabako" 
 end
