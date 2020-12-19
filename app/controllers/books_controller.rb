@@ -60,6 +60,9 @@ class BooksController < ApplicationController
     puts "ここは危険だ。"
   end
 
+  def notice
+  end
+
 
 private
 

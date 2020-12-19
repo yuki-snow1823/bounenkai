@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get "zoma" => "boss#zoma", as: "boss" 
   get "clear" => "boss#clear", as: "clear" 
   get "takarabako" => "boss#takarabako", as: "takarabako" 
+  get "notice" => "books#notice", as: "notice"
 end
